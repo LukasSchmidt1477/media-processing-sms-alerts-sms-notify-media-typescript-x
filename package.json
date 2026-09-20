@@ -1,0 +1,12 @@
+{
+  "name": "media-processing-sms-alerts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/media_alert_demo.ts",
+    "test": "tsx src/media_alerts.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.6.0" }
+}
